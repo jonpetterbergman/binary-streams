@@ -1,8 +1,9 @@
 name:                binary-streams
-version:             0.1.0.1
+version:             0.1.0.0
 synopsis:            data serialization/deserialization io-streams library
 description:         Allow binary serialization/deserialization using io-streams
-homepage:            http://petterbergman.se/binary-streams.html
+homepage:            http://github.com/jonpetterbergman/binary-streams
+bug-reports:         http://github.com/jonpetterbergman/binary-streams/issues
 license:             BSD3
 license-file:        LICENSE
 author:              Petter Bergman
@@ -10,7 +11,7 @@ maintainer:          jon.petter.bergman@gmail.com
 -- copyright:           
 category:            Data, IO-Streams
 build-type:          Simple
--- extra-source-files:  
+extra-source-files:  changelog.md
 cabal-version:       >=1.10
 
 library
